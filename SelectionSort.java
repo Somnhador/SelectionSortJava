@@ -31,7 +31,7 @@ public class SelectionSort {
 			int menorIndice = i;
 
 			// Loop procura o menor número
-			// Começa do i+1, já que já temos o primeiro índice como o menos número
+			// Começa do i+1, já que já temos o primeiro índice como o menor número
 			for (int j = i + 1; j < tamanho; j++) {
 
 				// Se encontrar um número menor que o atual
