@@ -10,13 +10,13 @@ public class SelectionSortString {
             
             // Compara usando .compareTo()
             for (int j = i + 1; j < tamanho; j++) {
-                // Se vetor[j] vem ANTES de vetor[menorIndice] alfabeticamente
+
                 if (vetor[j].compareTo(vetor[menorIndice]) < 0) {
                     menorIndice = j;
                 }
             }
             
-            // Troca (igual ao de antes)
+
             if (menorIndice != i) {
                 String temp = vetor[i];
                 vetor[i] = vetor[menorIndice];
