@@ -37,7 +37,7 @@ public class SelectionSortString {
     }
     
     public static void main(String[] args) {
-        String[] palavras = {"zebra", "apple", "mango", "banana"};
+        String[] palavras = {"zebra", "aranha", "manga", "banana"};
         
         System.out.println("ANTES:");
         mostrarVetor(palavras);
